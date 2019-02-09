@@ -1,32 +1,54 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container{
+  width: 100vw;
   display: flex;
   flex-direction: column;
+   justify-content: center; 
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.linksito{
+  color: #fff !important;
+  text-decoration: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar{
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  color: #fff;
+  color: #fff !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.components{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.component-container{
+  width: 30%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.component-img{
+  width: 100%;
+  height: auto;
+  border-radius: 120px;
+}
+.component-img-mostrar{
+  width: 50%;
+  height: auto;
+  border-radius: 120px;
+}
+.component-img-abrir{
+  width: 10%;
+  height: auto;
+  
 }
